@@ -1,0 +1,12 @@
+body{
+	font-size: 50px;
+}
+p{
+	font-size: 100px;
+}
+.one{
+	font-weight: bold;
+}
+.two{
+	font-style: italic;
+}

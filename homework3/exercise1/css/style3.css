@@ -1,0 +1,14 @@
+body{
+	
+background-image: url(../photo/img-comp.jpg) ;
+background-size: 100%;
+
+}
+
+
+p{
+	font-weight: 600;
+	line-height: 20px;
+	font-size: 14px;
+	color: rgb(200,50,0);
+}

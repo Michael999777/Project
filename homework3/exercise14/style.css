@@ -1,0 +1,37 @@
+table{
+	border-collapse: collapse;
+	margin: auto;
+	margin-top: 15%;
+}
+
+td{
+	background: red;
+	width:100px;
+	height: 100px;
+
+}
+td:first-child{
+	background: blue;
+}
+.second td:last-child{
+	background: blue;
+	border-radius: 50px 38px 38px 50px;
+}
+.first td:first-child{
+	border-radius: 40px 50px 0 0;
+}
+.first td:nth-child(2){
+	border-radius: 50px 0 0 0;
+}
+.first td:last-child{
+	border-radius: 0 35px 35px 0;
+}
+.last td:first-child{
+	border-radius: 0 0 40px 25px;
+}
+.last td:nth-child(2){
+	border-radius:0 0 0 40px ;
+}
+.last td:last-child{
+	border-radius: 0 35px 20px 0;
+}

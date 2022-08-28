@@ -1,0 +1,9 @@
+p{
+	word-spacing: 20px;
+}
+.one{
+	letter-spacing: 5px;
+}
+.two{
+	text-shadow: 5px 10px 3px blue;
+}
