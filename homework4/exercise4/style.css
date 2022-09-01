@@ -1,0 +1,19 @@
+div{
+	height: 50px;
+}
+
+.first{
+	background: red;
+	float: left;
+	width: 20%;
+}
+.second{
+	background: red;
+	float: right;
+	width: 20%;
+}
+.third{
+	margin-right: 20%;
+	margin-left: 20%;
+
+}

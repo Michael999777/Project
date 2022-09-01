@@ -1,0 +1,32 @@
+div{
+	color: white;
+}
+.red{
+	float: left;
+	width: 25%;
+}
+.green{
+	margin-left: 25%;
+
+}
+
+.blue{
+	float: right;
+	width: 20%;
+}
+.black{
+	margin-right: 20%;
+	
+}
+.magenta{
+	float: right;
+	width: 25%;
+}
+.aqua{
+	float: left;
+	width: 25%;
+}
+.palette{
+	margin-right: 25%;
+	margin-left: 25%;
+}

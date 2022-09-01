@@ -1,0 +1,20 @@
+.first{
+	background: green;
+	width: 10%;
+	float: right;
+}
+.second{
+	background: red;
+	margin-right: 10%;
+
+}
+.third{
+	background: green;
+	width: 10%;
+	float: left;
+
+}
+.fourth{
+	background: red;
+	margin-left: 10%;
+}

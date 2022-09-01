@@ -1,0 +1,7 @@
+div{
+	border: 2px solid black;
+	float: left;
+	max-width: 40px;
+	padding: 5px;
+	text-align: center;
+}

@@ -1,0 +1,13 @@
+
+li{
+	list-style-type: none;
+	margin-right: 0;
+}
+.inside{
+	display: none;
+}
+.second:hover>.inside{
+	display:block;
+	background: red;
+	width: 30px;
+}
