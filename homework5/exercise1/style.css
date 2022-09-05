@@ -1,0 +1,10 @@
+.flex-container{
+	width: 400px;
+	display: flex;
+}
+div:nth-child(odd){
+	flex-basis: 35%;
+}
+div:nth-child(even){
+	flex-basis: 15%;
+}

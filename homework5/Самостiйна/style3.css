@@ -1,0 +1,32 @@
+*{
+	box-sizing: border-box;
+}
+.container{
+	border: 1px solid black;
+	max-width: 100%;
+	height: 350px;
+}
+.block{
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	padding: 0 10px;
+}
+.item{
+	padding: 5px;
+	margin: 20px 0;
+	border: 1px solid black;
+	width: auto ;	
+}
+ .block2{
+	align-self: center;
+}
+.block3{
+	width: 100%;
+}
+.block4{
+	align-self: center;
+}
+.block5{
+	align-self: flex-end;
+}

@@ -1,0 +1,19 @@
+.flex-container{
+	width: 600px;
+	display: flex;
+}
+.item{
+	flex-basis: 100px;
+}
+.block1{
+	flex-grow: 0;
+}
+.block2{
+	flex-grow: 0;
+}
+.block3{
+	flex-grow: 1;
+}
+.block4{
+	flex-grow:1;
+}

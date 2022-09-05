@@ -1,0 +1,8 @@
+.flex-container{
+	width: 500px;
+	display: flex;
+}
+div{
+	flex-basis: 25%;
+	
+}

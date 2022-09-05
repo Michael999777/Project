@@ -1,0 +1,35 @@
+body{
+	margin: 0;
+}
+*{
+	box-sizing: border-box;
+
+}
+.container{
+	padding: 10px;
+}
+.flex-block{
+	border: 1px solid black;
+	display: flex;
+	flex-wrap: wrap-reverse;
+	padding: 10px;
+}
+.item{
+	width: 50%;
+	padding: 10px 10px;
+}
+ 
+  .block2{
+	order: 1;
+}
+ .block1, .block4{
+	order: 2;
+}
+ 
+.block5{
+	order: 3;
+}
+.block{
+	border: 1px solid black;
+	padding: 10px;
+}
