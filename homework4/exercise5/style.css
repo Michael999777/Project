@@ -12,3 +12,6 @@
 .third .text5{
 	display: inline-block;
 }
+ul{
+	list-style-type: upper-alpha;
+}
