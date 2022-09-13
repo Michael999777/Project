@@ -1,0 +1,432 @@
+body{
+	margin: 0;
+}
+
+ul{
+	list-style-type: none;
+	padding: 0 15px;
+}
+a{
+	text-decoration: none;
+}
+header{
+	width: 100%;
+	box-sizing: border-box;
+	display: block;
+	position: fixed;
+	overflow: hidden;
+	top: 0;
+	left: 0;
+	height: 50px;
+	background: #B0C4DE;
+	z-index: 2;
+
+}
+header .layout{
+	margin: 0 auto;
+	position: relative;
+	width: 90%;
+}
+.menu{
+	box-sizing: border-box;
+	display: flex;
+	justify-content: space-around;
+	font-size: 20px;
+	font-weight: 600;
+	margin: 15px 0 0 0;
+
+}
+
+.menu li a{
+	color: black;
+	margin-bottom: 10px;
+}
+.menu li a:hover{
+	color: yellow;
+}
+img{
+	box-shadow: -28px -16px 20px blue, 23px 15px 16px white;
+}
+
+
+/*Таро*/
+.taro{
+	display: block;
+	background: black;
+}
+.container{
+	display: block;
+	margin: 0 auto;
+	position: relative;
+	width: 90%;
+}
+h3{
+	font-size: 100px;
+	font-weight: 400;
+	text-align: center;
+	color: white;
+	font-family: 'Lobster', cursive;
+
+	margin: 0 0 0 0;
+	padding-top: 70px;
+}
+.tarot{
+	display: flex;
+	flex-wrap: wrap;
+
+}
+.tarot li{
+	width: calc(100%/3);
+	padding-top: 30px;
+
+}
+.tarot li .display{
+	margin-left: 132px;
+}
+.tarot li img{
+	width: 300px;
+	height: 400px;
+	margin: 0 40px;                 
+}
+.tarot li p{
+	text-align: center;
+	font-size: 30px;
+	font-family: 'Oswald', sans-serif;
+	color: #8A2BE2;
+}
+.tarot li p .price{
+	color: 	#556B2F;
+}
+button{
+	width: 120px;
+	height: 50px;
+	font-size: 30px;
+	background: #808000;
+}
+button a{
+	color: red;
+}
+@media(min-width: 768px) and (max-width: 1023px){
+	.tarot li .display{
+		margin-left: 58px;
+	}
+	.tarot li img{
+		width: 150px;
+		height: 300px;
+	}
+	.tarot li p{
+		font-size: 20px;
+		/*padding-right: 100px;*/
+	}
+
+	button{
+		width: 80px;
+		height: 30px;
+		font-size: 20px;
+	}
+}
+
+/*Руны*/
+.runa{
+	display: block;
+	background: #778899;
+
+	
+}
+.runa .container{
+	display: block;
+	margin: 0 auto;
+	position: relative;
+	width: 90%;
+}
+h3{
+	font-size: 100px;
+	font-weight: 400;
+	text-align: center;
+	color: white;
+	margin: 0 0 0 0;
+
+}
+.runar{
+	display: flex;
+	flex-wrap: wrap;
+}
+.runar li{
+	width: calc(100%/3);
+	padding-top: 30px;
+}
+.runar li .display{
+	margin-left: 132px;
+}
+.runar li img{
+	width: 300px;
+	height: 400px;
+	margin: 0 40px;
+}
+.runar li p{
+	text-align: center;
+	font-size: 30px;
+	font-family: 'Oswald', sans-serif;
+	color: black;
+}
+@media(max-width: 1023px){
+	.runar li .display{
+		margin-left: 58px;
+	}
+	.runar li img{
+		width: 150px;
+		height: 300px;
+	}
+	.runar li p{
+		font-size: 20px;
+	}
+	button{
+		width: 80px;
+		height: 30px;
+		font-size: 20px;
+	}
+}
+
+
+/*Свечи*/
+.candle{
+	display: block;
+	background: #D2691E;
+}
+.candle .container{
+	display: block;
+	margin: 0 auto;
+	position: relative;
+	width: 90%;
+}
+.candles{
+	display: flex;
+	flex-wrap: wrap;
+}
+.candles li{
+	width: calc(100%/3);
+	padding-top: 30px;
+}
+.candles li .display{
+	margin-left: 132px;
+}
+.candles li img{
+	width: 300px;
+	height: 400px;
+	margin: 0 40px;
+}
+.candles li p{
+	text-align: center;
+	font-size: 30px;
+	font-family: 'Oswald', sans-serif;
+	color: black;
+}
+@media(max-width: 1023px){
+	.candles li .display{
+		margin-left: 58px;
+	}
+	.candles li img{
+		width: 150px;
+		height: 300px;
+	}
+	.candles li p{
+		font-size: 20px;
+	}
+	button{
+		width: 80px;
+		height: 30px;
+		font-size: 20px;
+	}
+}
+/*Камни*/
+.stone{
+	display: block;
+	background-image:radial-gradient(farthest-side,yellow,brown);
+}
+.stone .container{
+	display: block;
+	margin: 0 auto;
+	position: relative;
+	width: 90%;
+}
+.stones{
+	display: flex;
+	flex-wrap: wrap;
+}
+.stones li{
+	width: calc(100%/3);
+	padding-top: 30px;
+}
+.stones li .display{
+	margin-left: 132px;
+}
+.stones li img{
+	width: 300px;
+	height: 400px;
+	margin: 0 40px;
+}
+.stones li p{
+	text-align: center;
+	font-size: 30px;
+	font-family: 'Oswald', sans-serif;
+	color: black;
+}
+@media(max-width: 1023px){
+	.stones li .display{
+		margin-left: 58px;
+	}
+	.stones li img{
+		width: 150px;
+		height: 300px;
+	}
+	.stones li p{
+		font-size: 20px;
+	}
+	button{
+		width: 80px;
+		height: 30px;
+		font-size: 20px;
+	}
+}
+
+@media(min-width: 1024px) and (max-width: 1279px){
+	.tarot li .display{
+		margin-left: 58px;
+	}
+	.tarot li img{
+		width: 250px;
+		height: 300px;
+	}
+	.tarot li p{
+		font-size: 25px;
+	}
+
+	button{
+		width: 80px;
+		height: 30px;
+		font-size: 20px;
+	}
+}
+
+@media(min-width: 1024px) and (max-width: 1279px){
+	.runar li .display{
+		margin-left: 58px;
+	}
+	.runar li img{
+		width: 250px;
+		height: 300px;
+	}
+	.runar li p{
+		font-size: 25px;
+		/*padding-right: 100px;*/
+	}
+
+	button{
+		width: 80px;
+		height: 30px;
+		font-size: 20px;
+	}
+}
+
+@media(min-width: 1024px) and (max-width: 1279px){
+	.candles li .display{
+		margin-left: 58px;
+	}
+	.candles li img{
+		width: 250px;
+		height: 300px;
+	}
+	.candles li p{
+		font-size: 25px;
+		/*padding-right: 100px;*/
+	}
+
+	button{
+		width: 80px;
+		height: 30px;
+		font-size: 20px;
+	}
+}
+@media(min-width: 1024px) and (max-width: 1279px){
+	.stones li .display{
+		margin-left: 58px;
+	}
+	.stones li img{
+		width: 250px;
+		height: 300px;
+	}
+	.stones li p{
+		font-size: 25px;
+		/*padding-right: 100px;*/
+	}
+
+	button{
+		width: 80px;
+		height: 30px;
+		font-size: 20px;
+	}
+
+}
+@media(min-width: 1280px) and (max-width: 1439px){
+	.tarot li img{
+		width: 250px;
+		height: 300px;
+	}
+	.tarot li p{
+		padding-left: 100px;
+	}
+
+}
+@media(min-width: 1280px) and (max-width: 1439px){
+	.runar li img{
+		width: 250px;
+		height: 300px;
+	}
+	.runar li p{
+		padding-left: 100px;
+	}
+
+}
+@media(min-width: 1280px) and (max-width: 1439px){
+	.candles li img{
+		width: 250px;
+		height: 300px;
+	}
+	.candles li p{
+		padding-left: 100px;
+	}
+
+}
+@media(min-width: 1280px) and (max-width: 1439px){
+	.stones li img{
+		width: 250px;
+		height: 300px;
+	}
+	.stones li p{
+		padding-left: 100px;
+	}
+
+}
+@media(min-width: 1440px) and (max-width: 1919px){
+	.tarot li p{
+		padding-left: 93px;
+	}
+}
+
+@media(min-width: 1440px) and (max-width: 1919px){
+	.runar li p{
+		padding-left: 93px;
+	}
+}
+
+@media(min-width: 1440px) and (max-width: 1919px){
+	.candles li p{
+		padding-left: 93px;
+	}
+}
+
+@media(min-width: 1440px) and (max-width: 1919px){
+	.stones li p{
+		padding-left: 93px;
+	}
+}

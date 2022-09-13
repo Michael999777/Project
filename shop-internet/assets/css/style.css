@@ -1,0 +1,215 @@
+body{
+	margin: 0;
+}
+ul{
+	list-style-type: none;
+}
+a{
+	text-decoration: none;
+}
+
+*{
+	box-sizing: border-box;
+}
+header{
+	width: 100%;
+	box-sizing: border-box;
+	display: block;
+	position: fixed;
+	overflow: hidden;
+	top: 0;
+	left: 0;
+	height: 150px;
+	background: rgba(45, 360, 200, 0.5);
+	z-index: 2;
+}
+.layout{
+	margin: 0 auto;
+	position: relative;
+	width: 90%;
+	display: flex;
+	justify-content: space-between;
+
+}
+.logo{
+	padding-top: 14px;	
+}
+
+nav{
+	display: inline-block;
+}
+nav .menu{
+	display: block;
+	padding-top: 50px;
+}
+nav .menu li{
+	float: left;
+	margin-right: 150px;
+	font-size: 20px;
+	font-weight: 700;
+	font-family: 'Oswald', sans-serif;
+
+}
+nav .menu li a{
+	color: #4B0082;
+}
+nav .menu li:hover a{
+	color: #000000;
+}
+@media(max-width: 1023px){
+	nav .menu li{
+		margin-right: 28px;
+		font-size: 15px;
+	}
+}
+@media(min-width: 1024px) and (max-width:1367px){
+	nav .menu li{
+			font-size: 20px;
+			margin-right: 28px;
+	}
+}
+.aside{
+	display: block;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 15%;
+	/*height: 79vh;*/
+	background: rgba(220, 220, 220, 0.4);
+	position: absolute;
+	top: 300px;
+	left: 200px;
+	z-index: 2;
+	box-shadow: -28px -16px 20px blue, 23px 15px 16px white;
+	border-radius: 20px;
+
+transform: scale(1.3) skew(20deg, 0deg);
+}
+.aside a{
+	
+	font-size: 50px;
+	font-family: 'Lobster', cursive;
+	padding: 10px 0 ;
+
+}
+ .text{
+	display: none;
+	 overflow: hidden;
+	 margin:0 auto ;
+	margin-top: 10px;
+	width: 250px;
+	margin-bottom: 50px;
+	font-size: 20px;
+	background: black;
+	color:white;
+	box-shadow: -28px -16px 20px purple, 23px 15px 16px yellow;
+
+}
+.text p{
+	text-align: center;
+}
+.aside a:hover {
+	color: #000000;
+	display: block;
+}
+.aside a:hover + .text{
+	display: block;
+}
+@media(min-width:768px) and (max-width: 1023px){
+	.aside{
+		width: 20%;
+	}
+	.aside .text{
+		width: 100px;
+	}
+	.text p{
+		font-size: 10px;
+	}
+	.aside a{
+		font-size: 20px;
+	}
+}
+@media(min-width:1024px) and (max-width: 1279px){
+	.text{
+		width: 200px;
+	}
+	.aside a{
+		font-size: 35px;
+	}
+}
+main{
+	display: block;
+	position: relative;
+	width: 100%;
+	z-index: 1;
+	margin-right: 31%;
+}
+#content{
+	position: relative;
+}
+#content section{
+	max-width: 100%;
+	display: block;
+}
+.banner{
+	position: relative;
+	height: 100vh;
+
+	background: url(https://vjoy.cc/wp-content/uploads/2019/10/1419573470_derevya-zvezdy-galaktika.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin-top: -18px;
+}
+.banner .name{
+	position: absolute;
+	top: 200px;
+	left: 920px;
+}
+.banner .name p{
+	color: #000000;
+	font-size: 100px;
+	font-family: 'Lobster', cursive;
+	font-weight: 400;
+	text-shadow: -28px -16px 20px blue, 23px 15px 16px white;
+}
+
+@media(min-width: 768px) and (max-width: 1023px){
+	.banner .name{
+		position: absolute;
+		top: 600px;
+		left: 350px;
+	}
+	.banner .name p{
+		font-size: 50px;
+	}
+}
+@media(min-width: 1024px) and (max-width: 1576px){
+	.banner .name{
+		position: absolute;
+		top: 600px;
+		left: 400px;
+	}
+	.banner.name p{
+		font-size: 70px;
+	}
+
+}
+footer{
+	display: block;
+	width: 100%;
+	position: fixed;
+	overflow: hidden;
+	bottom: 0;
+	left: 0;
+	background: #000000;
+	height: 50px;
+	z-index: 3;
+}
+.container-footer{
+	display: block;
+	margin: 0 auto;
+}
+.container-footer p{
+	text-align: center;
+	color: #FFFFFF;
+}
