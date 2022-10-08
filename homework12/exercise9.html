@@ -1,0 +1,29 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <link rel="stylesheet" href="index9.css">
+</head>
+
+<body>
+  <div id="as" class="menu" >
+  <span class="list">Солодощі (натисни мене)!</span>
+  <ul>
+    <li>Тiстечко</li>
+    <li>Пончик</li>
+    <li>Мед</li>
+  </ul>
+</div>
+
+
+  <script>
+    let menuElem = document.getElementById("as");
+    let titleElem = menuElem.querySelector('.list');
+
+    titleElem.onclick = function() {
+      menuElem.classList.toggle('open');
+    };
+  </script>
+
+  
+</body>
+</html>
